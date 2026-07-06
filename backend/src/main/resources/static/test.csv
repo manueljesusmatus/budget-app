@@ -1,0 +1,30 @@
+account,amount,amount unpaid,currency,title,note,date,income,type,category name,subcategory name,color,icon,emoji,budget,objective,extra
+Mach,-10000.0,,CLP,,,2026-06-18 19:13:58.000,false,default,Cajero,,0XFFA4A4A4,atm-machine(1),,,,repeat every 1 month
+Mach,-19026.0,,CLP,,,2026-06-18 19:13:46.000,false,default,Comida,Supermercado,0XFFFFEE58,bread,,,,repeat every 1 month
+Mach,-13800.0,,CLP,,,2026-06-16 21:22:33.000,false,default,Servicios,Parafina,0XFFFFEE58,paper-bill,,,,repeat every 1 month
+Mach,-39490.0,,CLP,,,2026-06-11 21:21:27.000,false,default,Streaming,Crunchyroll,0XFF3F51B5,dvd,,,,repeat every 1 month
+Mach,372.0,,CLP,,,2026-06-10 20:21:14.000,true,default,Ingreso,Cashback,0XFF9575CD,coin,,,,repeat every 1 month
+Mach,2542.0,,CLP,,,2026-06-10 20:21:05.000,true,default,Ingreso,Cashback,0XFF9575CD,coin,,,,repeat every 1 month
+Mach,359.0,,CLP,,,2026-06-08 20:20:41.000,true,default,Ingreso,Cashback,0XFF9575CD,coin,,,,repeat every 1 month
+Mach,-6490.0,,CLP,,,2026-06-08 20:20:24.000,false,default,Streaming,Prime video,0XFF3F51B5,dvd,,,,repeat every 1 month
+Mach,-13600.0,,CLP,,,2026-06-05 20:56:43.000,false,default,Servicios,Parafina,0XFFFFEE58,paper-bill,,,,repeat every 1 month
+Mach,-10000.0,,CLP,,,2026-06-04 20:58:51.000,false,default,Cajero,,0XFFA4A4A4,atm-machine(1),,,,repeat every 1 month
+Mach,-188824.0,,CLP,,,2026-06-04 20:44:05.000,false,default,Comida,Supermercado,0XFFFFEE58,bread,,,,repeat every 1 month
+Mach,-1420.0,,CLP,,,2026-06-03 22:34:04.000,false,default,Transporte,,0XFF78909C,taxi(1),,,,repeat every 1 month
+Mach,-75700.0,,CLP,,,2026-06-02 21:45:11.000,false,default,Servicios,Agua,0XFFFFEE58,paper-bill,,,,repeat every 1 month
+Mach,-47146.0,,CLP,,,2026-06-01 11:29:24.000,false,default,Servicios,Internet,0XFFFFEE58,paper-bill,,,,repeat every 1 month
+Mach,-4990.0,,CLP,,,2026-06-01 11:28:33.000,false,default,Streaming,Mach,0XFF3F51B5,dvd,,,,repeat every 1 month
+Mach,-20000.0,,CLP,,,2026-05-26 23:18:28.000,false,default,Cajero,,0XFFA4A4A4,atm-machine(1),,,,repeat every 1 month
+Mach,-8299.0,,CLP,,,2026-05-26 23:18:09.000,false,default,Salud,Farmacia,0XFF26A69A,face-mask,,,,repeat every 1 month
+Mach,-1790.0,,CLP,,,2026-05-26 23:17:55.000,false,default,Transporte,,0XFF78909C,taxi(1),,,,repeat every 1 month
+Mach,-815.0,,CLP,,,2026-05-24 21:55:15.000,false,default,Transporte,,0XFF78909C,taxi(1),,,,repeat every 1 month
+Mach,-11000.0,,CLP,,,2026-05-24 21:54:58.000,false,default,Streaming,Youtube,0XFF3F51B5,dvd,,,,repeat every 1 month
+Mach,-14990.0,,CLP,,,2026-05-23 21:53:17.000,false,default,Streaming,Max,0XFF3F51B5,dvd,,,,repeat every 1 month
+Mach,-64800.0,,CLP,,,2026-05-23 12:44:16.000,false,default,Servicios,Luz,0XFFFFEE58,paper-bill,,,,repeat every 1 month
+Mach,-2605.0,,CLP,,,2026-05-23 12:42:49.000,false,default,Transporte,,0XFF78909C,taxi(1),,,,repeat every 1 month
+Mach,-8495.0,,CLP,,,2026-05-23 01:58:04.000,false,default,Celular,Celular padre,0XFF66BB6A,oldschool-telephone,,,,repeat every 1 month
+Mach,-30147.0,,CLP,,,2026-05-23 01:57:47.000,false,default,Celular,Celular propio,0XFF66BB6A,oldschool-telephone,,,,repeat every 1 month
+Mach,-150000.0,,CLP,,,2026-05-23 01:57:19.000,false,default,Casa,Papá,0XFFFFA726,house,,,,repeat every 1 month
+Mach,-250000.0,,CLP,,,2026-05-23 01:57:07.000,false,default,Casa,Mamá,0XFFFFA726,house,,,,repeat every 1 month
+Mach,1250000.0,,CLP,Mach Transferir a,"Saldo transferido
+Santander → Mach",2026-05-23 01:56:31.000,true,default,Corrección de equilibrio,,0XFF607D8B,charts,,,,

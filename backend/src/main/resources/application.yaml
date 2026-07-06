@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: budget
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:backend/data/app.db
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: create
+  sql:
+    init:
+      mode: always
+logging:
+  level:
+    cl:
+      dev:
+        mmatush: DEBUG
