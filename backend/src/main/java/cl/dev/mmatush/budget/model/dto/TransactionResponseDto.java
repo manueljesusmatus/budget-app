@@ -1,4 +1,4 @@
-package cl.dev.mmatush.budget.model;
+package cl.dev.mmatush.budget.model.dto;
 
 import lombok.Builder;
 
@@ -9,7 +9,7 @@ public record TransactionResponseDto(
         Long id,
         String account,
         Double amount,
-        LocalDateTime createdAt,
+        LocalDateTime date,
         String category,
         String subcategory
 ) {

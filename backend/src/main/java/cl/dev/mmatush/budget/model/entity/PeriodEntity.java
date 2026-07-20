@@ -1,9 +1,10 @@
-package cl.dev.mmatush.budget.model;
+package cl.dev.mmatush.budget.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -18,17 +19,15 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TransactionEntity {
+@Table(name = "APP_PERIOD")
+public class PeriodEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String account;
-    private double amount;
-    private String currency;
-    private boolean income;
-    private LocalDateTime createdAt;
-    private String category;
-    private String subcategory;
+    private String name;
+    private LocalDateTime startDate;
+    private LocalDateTime endDate;
+    private Long budget;
 
 }

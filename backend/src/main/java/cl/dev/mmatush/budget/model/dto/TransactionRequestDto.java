@@ -1,14 +1,12 @@
-package cl.dev.mmatush.budget.model;
+package cl.dev.mmatush.budget.model.dto;
 
 import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.NotNull;
 
-import java.time.LocalDateTime;
-
 public record TransactionRequestDto(
     @NotNull String account,
     double amount,
-    @NotNull LocalDateTime createdAt,
+    @NotNull String date,
     @NotNull String category,
     @Nullable String subcategory
 ) {

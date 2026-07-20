@@ -26,7 +26,11 @@ public class CrudException extends RuntimeException implements Serializable {
         super(message, cause);
     }
 
-    public static CrudException readException(String id, Throwable cause) {
+    public static CrudException readException(long id) {
+        return new CrudException(ERROR_READ_RECORD + id);
+    }
+
+    public static CrudException readException(long id, Throwable cause) {
         return new CrudException(ERROR_READ_RECORD + id, cause);
     }
 
@@ -34,11 +38,15 @@ public class CrudException extends RuntimeException implements Serializable {
         return new CrudException(ERROR_CREATE_RECORD, cause);
     }
 
-    public static CrudException updateException(Throwable cause) {
-        return new CrudException(ERROR_UPDATE_RECORD, cause);
+    public static CrudException createException() {
+        return new CrudException(ERROR_CREATE_RECORD);
     }
 
-    public static CrudException deleteException(String id, Throwable cause) {
+    public static CrudException updateException(long id) {
+        return new CrudException(ERROR_UPDATE_RECORD + id);
+    }
+
+    public static CrudException deleteException(long id, Throwable cause) {
         return new CrudException(ERROR_DELETE_RECORD + id, cause);
     }
 
